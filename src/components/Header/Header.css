@@ -41,3 +41,11 @@
 .navFontSize {
   font-size: 18px;
 }
+/* Main Navbar */
+.collapseTransition {
+  transition: all 1.5s ease;
+}
+.dropdownItem {
+  transition: all 0.5s ease;
+  background-color: black;
+}
