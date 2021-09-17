@@ -7,7 +7,7 @@ const MainNavbar = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bgPrimary sticky-top"
+      className="bgPrimary sticky-top borderBottom"
       variant="dark"
     >
       <Container>

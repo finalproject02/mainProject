@@ -1,21 +1,23 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import up from "../../images/up.jpg";
-import walle from "../../images/walle.jpg";
-import toystory from "../../images/toystory.jpg";
 
 const MainCarousel = () => {
+  const url = {
+    url1: "https://www.lus.ac.bd/wp-content/uploads/2020/03/1111111-745x385.jpg",
+    url2: "https://www.lus.ac.bd/wp-content/uploads/2021/03/26-March-2021-745x385.jpg",
+    url3: "https://www.lus.ac.bd/wp-content/uploads/2019/07/3-745x385.jpg",
+  };
   return (
-    <Carousel className="mb-5">
+    <Carousel className="mb-5 borderBottom">
       <Carousel.Item>
-        <img className="d-block w-100" src={up} alt="First slide" />
+        <img className="d-block w-100" src={url.url1} alt="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={toystory} alt="Second slide" />
+        <img className="d-block w-100" src={url.url2} alt="Second slide" />
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -23,7 +25,7 @@ const MainCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={walle} alt="Third slide" />
+        <img className="d-block w-100" src={url.url3} alt="Third slide" />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
