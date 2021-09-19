@@ -18,10 +18,10 @@ const MainNavbar = () => {
           id="responsive-navbar-nav"
         >
           <Nav className="me-auto bgPrimary">
-            <Nav.Link href="#features" className="text-white me-2 navFontSize">
+            <Nav.Link href="/home" className="text-white me-4 navFontSize">
               Home
             </Nav.Link>
-            <Nav.Link className="me-4 navFontSize" href="#pricing">
+            <Nav.Link className="me-4 navFontSize" href="/aboutus">
               About Us
             </Nav.Link>
             <NavDropdown
@@ -31,89 +31,52 @@ const MainNavbar = () => {
             >
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.1"
+                href="/admissionpolicy"
               >
                 Admission and Registration policies
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.2"
+                href="/scholarshipaid"
               >
                 Scholarship and aid
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.3"
+                href="/howtoapply"
               >
                 How to Apply
               </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/academicprogram"
               >
                 Academic Prigram
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/tutionfees"
               >
-                Online Admission
+                Tution Fees
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/academicpolicy"
               >
                 Academic Policy
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/onlineadmission"
               >
                 Online Admission
               </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/contact">
                 Contact
               </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/faq">
                 FAQ
-              </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown
-              className="me-4 nav-dropdown navFontSize"
-              title="Academics"
-              id="collasible-nav-dropdown"
-            >
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.2"
-              >
-                Scholarship and aid
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.3"
-              >
-                How to Apply
-              </NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
-                Academic Prigram
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
-                Online Admission
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
@@ -123,26 +86,26 @@ const MainNavbar = () => {
             >
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.2"
+                href="/facultyofbba"
               >
                 Faculty of Business Administration
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.3"
+                href="/facultyofartandmodernlang"
               >
                 Faculty of Arts and Modern <br /> Language
               </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/facultyofsocialscience"
               >
                 Faculty of Social Science
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/facultyofmodernscience"
               >
                 Faculty of Modern Science
               </NavDropdown.Item>
@@ -154,63 +117,63 @@ const MainNavbar = () => {
             >
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.2"
+                href="/departmentofbba"
               >
                 Department of Business <br /> Administration
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.1"
+                href="/departmentofcse"
               >
                 Department of CSE
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.3"
+                href="/departmentofeee"
               >
                 Department of EEE
               </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentofcivil"
               >
                 Department of Civil Engineering
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentofenglish"
               >
                 Department of English
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentofarchitect"
               >
                 Department of Architecture
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentoflaw"
               >
                 Department of Law
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentofislamicstudies"
               >
                 Department of Islamic Studies
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentoftourism"
               >
                 Department of Tourism and <br />
                 Hospitality Management
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/departmentofbangla"
               >
                 Department of Bangla
               </NavDropdown.Item>
@@ -220,56 +183,44 @@ const MainNavbar = () => {
               title="Student Portal"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.1"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/results">
                 Results
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/paymentprocedure"
               >
                 Payment Procedure
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.2"
+                href="/semesterregi"
               >
                 Semester Registration
               </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.3"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/classroom">
                 Classroom
               </NavDropdown.Item>
               <NavDropdown.Item
                 className="dropdownItem py-3"
-                href="#action/3.4"
+                href="/socialplatform"
               >
                 Social Platform
               </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/routine">
                 Class Routine
               </NavDropdown.Item>
-              <NavDropdown.Item
-                className="dropdownItem py-3"
-                href="#action/3.4"
-              >
+              <NavDropdown.Item className="dropdownItem py-3" href="/help">
                 Help
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="navFontSize me-4" href="#pricing">
+            <Nav.Link className="navFontSize me-4" href="/iqac">
               IQAC
             </Nav.Link>
-            <Nav.Link className="navFontSize me-4" href="#pricing">
+            <Nav.Link className="navFontSize me-4" href="/library">
               Library
             </Nav.Link>
-            <Nav.Link className="navFontSize" href="#pricing">
+            <Nav.Link className="navFontSize" href="/login">
               Login
             </Nav.Link>
           </Nav>

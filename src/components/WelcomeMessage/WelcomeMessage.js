@@ -23,7 +23,7 @@ const WelcomeMessage = () => {
   ];
 
   return (
-    <>
+    <div>
       <Row className="mt-5">
         {wcmsg.map((msg) => (
           <Col md="6">
@@ -52,7 +52,7 @@ const WelcomeMessage = () => {
           </Col>
         ))}
       </Row>
-    </>
+    </div>
   );
 };
 

@@ -8,7 +8,6 @@ import {
   faBook,
   faBuilding,
   faMoneyBillAlt,
-  fauser,
 } from "@fortawesome/free-solid-svg-icons";
 
 function CampusFacilities() {

@@ -10,6 +10,9 @@ import WelcomeMessage from "../WelcomeMessage/WelcomeMessage";
 import LatestNews from "../LatestNews/LatestNews";
 import Events from "../Events/Events";
 import CampusFacilities from "../CampusFacilities/CampusFacilities";
+import CampusLocation from "../CampusLocation/CampusLocation";
+import Affiliations from "../Affiliations/Affiliations";
+import Footer from "../Footer/Footer";
 
 const HomeBody = () => {
   return (
@@ -37,6 +40,12 @@ const HomeBody = () => {
       </Row>
       <Row>
         <CampusFacilities></CampusFacilities>
+      </Row>
+      <Row>
+        <CampusLocation></CampusLocation>
+      </Row>
+      <Row>
+        <Affiliations></Affiliations>
       </Row>
     </Container>
   );
